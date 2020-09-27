@@ -1,0 +1,96 @@
+2020-09-27 15:59:36.2822 Info Message Template Auto Format enabled
+2020-09-27 15:59:36.3475 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 15:59:36.3716 Info Loading assembly: ChatServer
+2020-09-27 15:59:36.5601 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 15:59:36.6048 Info Adding target FileTarget(Name=allfile)
+2020-09-27 15:59:36.6048 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 15:59:36.6738 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 15:59:36.6894 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 16:03:03.5685 Info Message Template Auto Format enabled
+2020-09-27 16:03:03.5938 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 16:03:03.5938 Info Loading assembly: ChatServer
+2020-09-27 16:03:03.7667 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 16:03:03.8002 Info Adding target FileTarget(Name=allfile)
+2020-09-27 16:03:03.8050 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 16:03:03.8405 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 16:03:03.8405 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 16:08:30.1900 Info Message Template Auto Format enabled
+2020-09-27 16:08:30.2089 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 16:08:30.2143 Info Loading assembly: ChatServer
+2020-09-27 16:08:30.4093 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 16:08:30.4336 Info Adding target FileTarget(Name=allfile)
+2020-09-27 16:08:30.4492 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 16:08:30.4872 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 16:08:30.4991 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 16:19:21.3853 Info Message Template Auto Format enabled
+2020-09-27 16:19:21.4063 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 16:19:21.4063 Info Loading assembly: ChatServer
+2020-09-27 16:19:21.5987 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 16:19:21.6215 Info Adding target FileTarget(Name=allfile)
+2020-09-27 16:19:21.6371 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 16:19:21.6741 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 16:19:21.6850 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 16:25:03.0164 Info Message Template Auto Format enabled
+2020-09-27 16:25:03.0372 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 16:25:03.0426 Info Loading assembly: ChatServer
+2020-09-27 16:25:03.2648 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 16:25:03.2903 Info Adding target FileTarget(Name=allfile)
+2020-09-27 16:25:03.3063 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 16:25:03.3424 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 16:25:03.3532 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 16:26:41.3876 Info Message Template Auto Format enabled
+2020-09-27 16:26:41.4097 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 16:26:41.4152 Info Loading assembly: ChatServer
+2020-09-27 16:26:41.5971 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 16:26:41.6184 Info Adding target FileTarget(Name=allfile)
+2020-09-27 16:26:41.6343 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 16:26:41.6720 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 16:26:41.6833 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 16:27:54.4953 Info Message Template Auto Format enabled
+2020-09-27 16:27:54.5217 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 16:27:54.5276 Info Loading assembly: ChatServer
+2020-09-27 16:27:54.7229 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 16:27:54.7447 Info Adding target FileTarget(Name=allfile)
+2020-09-27 16:27:54.7622 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 16:27:54.7981 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 16:27:54.8090 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 17:52:34.8344 Info Message Template Auto Format enabled
+2020-09-27 17:52:34.8540 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 17:52:34.8540 Info Loading assembly: ChatServer
+2020-09-27 17:52:35.0896 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 17:52:35.1249 Info Adding target FileTarget(Name=allfile)
+2020-09-27 17:52:35.1249 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 17:52:35.1694 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 17:52:35.1694 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 17:58:56.9881 Info Message Template Auto Format enabled
+2020-09-27 17:58:57.7226 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 17:58:57.7284 Info Loading assembly: ChatServer
+2020-09-27 17:58:57.7663 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 17:58:57.7930 Info Adding target FileTarget(Name=allfile)
+2020-09-27 17:58:57.7930 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 17:58:57.8283 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 17:58:57.8416 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 18:01:07.5860 Info Message Template Auto Format enabled
+2020-09-27 18:01:07.6063 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 18:01:07.6063 Info Loading assembly: ChatServer
+2020-09-27 18:01:07.7860 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 18:01:07.8213 Info Adding target FileTarget(Name=allfile)
+2020-09-27 18:01:07.8213 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 18:01:07.8636 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 18:01:07.8798 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 18:02:10.5299 Info Message Template Auto Format enabled
+2020-09-27 18:02:10.5482 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 18:02:10.5482 Info Loading assembly: ChatServer
+2020-09-27 18:02:10.7267 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 18:02:10.7593 Info Adding target FileTarget(Name=allfile)
+2020-09-27 18:02:10.7593 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 18:02:10.8023 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 18:02:10.8138 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console
+2020-09-27 18:21:58.7137 Info Message Template Auto Format enabled
+2020-09-27 18:21:58.7352 Info Loading assembly: NLog.Web.AspNetCore
+2020-09-27 18:21:58.7352 Info Loading assembly: ChatServer
+2020-09-27 18:21:58.9182 Info Adding target ConsoleTarget(Name=console)
+2020-09-27 18:21:58.9518 Info Adding target FileTarget(Name=allfile)
+2020-09-27 18:21:58.9518 Info Adding target FileTarget(Name=ownFile)
+2020-09-27 18:21:58.9938 Info Validating config: TargetNames=allfile, ownFile, ConfigItems=52, FilePath=F:\Chat\Chat\ChatServer\bin\Debug\netcoreapp3.1\nlog.config
+2020-09-27 18:21:58.9938 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: console

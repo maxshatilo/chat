@@ -1,0 +1,67 @@
+<div class="container" style="margin-top: 20px;">
+    <h3 class=" text-center">Messaging</h3>
+    <div class="messaging">
+        <div class="inbox_msg">
+            <div class="inbox_people">
+                <div class="headind_srch" style="text-align: center;">
+                    <h4>Statistics</h4>
+                </div>
+                <div class="inbox_chat">
+                    <div style="margin: 30px 10px 30px 10px; padding: 10px 0 0 10px; border-style: outset;">
+                        <h5 style="text-align: center;">Total:</h5>
+                        <div [innerHTML]="statistics"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mesgs">
+                <div class="form-group" style="text-align: center;">
+                    <select name="chatView" [(ngModel)]='defaultChatView' (change)="onOptionsSelectedChangeView(chatView.value)" #chatView="ngModel">
+            <option value="chat" selected>Chat view</option>
+            <option value="aggregated">Aggregated view</option>
+          </select>
+                </div>
+                <div class="msg_history_aggregated" *ngIf="defaultChatView == 'aggregated'">
+                    <div *ngFor="let message of aggregatedMessages" style="margin: 20px 20px 0 20px;">
+                        <p style="text-align: center;">---- {{message.date | date: "dd MMMM yyyy"}} ----</p>
+                        <div class="row" style="font-size: small;">
+                            <div class="column" style="margin: 0 20px 20px 20px;" *ngFor="let messageH of message.messagesByHour">
+                                <b>{{messageH.hour}}:00</b>
+                                <div *ngFor="let messageHM of messageH.messages">
+                                    <div>{{messageHM.name.charAt(0).toUpperCase() + messageHM.name.slice(1)}} - {{messageHM.count}}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="defaultChatView == 'chat'">
+                    <div class="msg_history" #scrollMe>
+                        <div *ngFor="let message of messages">
+                            <div class="incoming_msg">
+                                <div class="incoming_msg_img" *ngIf="message.userName != this.userName">
+                                    <img class="avatar" src="https://www.w3schools.com/howto/img_avatar.png" alt="Bhargav Raviya">
+                                </div>
+                                <div [ngClass]="message.userName != this.userName ? 'received_msg' : 'outgoing_msg'">
+                                    <span *ngIf="message.userName != this.userName">{{message.userName}}</span>
+                                    <input *ngIf="message.userName != this.userName" type="image" class="highFive" title="high-five" id="highFive" src="../../assets/img/IconBros.png" style="margin-left: 10px;" (click)="addHighFiveMessage(message.userName)">
+                                    <div [ngClass]="message.userName != this.userName ? 'received_withd_msg' : 'sent_msg'">
+                                        <p>{{message.messageText}}</p>
+                                        <span class="time_date">{{message.dateTime | date: 'dd MMMM yyyy HH:mm'}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type_msg">
+                        <form (ngSubmit)="sendMessage()" #chatForm="ngForm">
+                            <div class="input_msg_write">
+                                <input type="text" class="write_msg" placeholder="Type a message" id="message" name="message" [(ngModel)]="message" required>
+                            </div>
+                            <button class="msg_send_btn" type="submit" id="sendmessage" [disabled]="!chatForm.valid"><i
+                  class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

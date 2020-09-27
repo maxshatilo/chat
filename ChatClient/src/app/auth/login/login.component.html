@@ -1,0 +1,26 @@
+<main class="page login-page" style="margin-top: 86px;">
+    <section class="clean-block clean-form dark">
+        <div class="container">
+            <div class="block-heading">
+                <h2 class="text-info">Log In</h2>
+            </div>
+            <form (ngSubmit)="onSubmit(f)" #f="ngForm" method="post" style="margin-bottom: 83px;">
+                <div class="form-group">
+                    <label for="email">User*</label>
+                    <input class="form-control" type="text" name="userName" required ngModel #userName="ngModel">
+                    <span class="help-block text-danger" *ngIf="!userName.valid && userName.touched">Required field</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Password*</label>
+                    <input class="form-control" type="password" name="password" required password ngModel #password="ngModel">
+                    <span class="help-block text-danger" *ngIf="!password.valid && password.touched">Required field</span>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <span class="text-danger" style="font-size: small;" [hidden]="!errorText">Your login
+            attempt was not successful. Please try again.</span>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit" [disabled]="!f.valid">Log In</button>
+            </form>
+        </div>
+    </section>
+</main>

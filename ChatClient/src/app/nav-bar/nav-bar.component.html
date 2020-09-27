@@ -1,0 +1,21 @@
+<nav class="navbar navbar-light navbar-expand-lg bg-white clean-navbar">
+    <div class="container"><a class="navbar-brand logo" routerLink="/chat">Chat</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+        class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <ng-template [ngIf]="!authService.isLoggedIn()">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/register" routerLinkActive="active">Register</a>
+                    </li>
+                </ng-template>
+                <ng-template [ngIf]="authService.isLoggedIn()">
+                    <span class="nav-link" style="color: #3b99e0;">Hello <b>{{ user }}</b></span>
+                    <a class="nav-link" routerLink="/login" (click)="sendLogOutMessage()">Logout</a>
+                </ng-template>
+            </ul>
+        </div>
+    </div>
+</nav>

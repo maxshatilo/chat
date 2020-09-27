@@ -1,0 +1,29 @@
+<main class="page registration-page" style="margin-top: 86px;">
+    <section class="clean-block clean-form dark">
+        <div class="container">
+            <div class="block-heading">
+                <h2 class="text-info">Registration</h2>
+            </div>
+            <form (ngSubmit)="onAddUser(f)" #f="ngForm">
+                <div class="form-group">
+                    <label for="name">Name*</label>
+                    <input class="form-control item" type="text" autofocus required maxlength="200" name="userName" (focusout)="userNameFocusOutFunction(userName.value)" ngModel #userName="ngModel">
+                    <span class="help-block text-danger" *ngIf="!userName.valid && userName.touched">Required field</span>
+                    <span class="help-block text-danger" *ngIf="userExist">User exist</span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password*</label>
+                    <input class="form-control item" type="password" name="password" autofocus required minlength="6" maxlength="200" [(ngModel)]='password' #passwordInput="ngModel">
+                    <span class="help-block text-danger" *ngIf="!passwordInput.valid && passwordInput.touched">Required field
+                    (minimum 6 characters)</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Confirm Password*</label>
+                    <input class="form-control item" type="password" name="confirmPassword" autofocus required maxlength="200" ngModel [(ngModel)]='confirmPassword' #confirmPasswordInput="ngModel">
+                    <span class="help-block text-danger" *ngIf="!confirmPasswordInput.valid && confirmPasswordInput.touched">Required field</span>
+                    <span class="help-block text-danger" *ngIf="!matchingConfirmPasswords()"> Passwords do not match</span>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit" [disabled]="!f.valid || !matchingConfirmPasswords() || userExist">Sign Up</button></form>
+        </div>
+    </section>
+</main>
